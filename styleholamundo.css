@@ -1,0 +1,39 @@
+h1 {
+
+    color:blue;
+    background-color: yellow;
+
+}
+/* Selección por id */
+#tres {
+    color: green;
+}
+
+/* Selección por clase */
+
+.cabecera {
+    color: red;
+}
+.destacado {
+    font-weight: bold;
+}
+header > #logo {
+    margin-left: 10px;
+}
+.container > .row > .col:nth-child(1){
+background-color: yellow;
+
+}
+.container > .row > .col:nth-child(2){   
+
+    font-size: 20px;
+
+}
+.container > .row > .col:last-child {  
+    color:darkgrey;
+    text-aling:center;
+    background-color:pink;
+    vertical-align: botton;
+}
+.container > .row:nth-child(2) img {
+    margin: 10px;
